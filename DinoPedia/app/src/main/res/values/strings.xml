@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="about">About</string>
+    <string name="contact">Contact:</string>
+    <string name="user_name">Nicholas Hutabarat</string>
+    <string name="user_job">IT Del College Students</string>
+    <string name="user_email">nicholashutabarat0@gmail.com</string>
+    <string name="user_phone">+6281370500144</string>
+    <string name="family_icon">family_icon</string>
+    <string name="family_name">Family Name</string>
+    <string name="family_description">Description</string>
+    <string name="family_period">Life Period</string>
+    <string name="family_physics">Physics</string>
+    <string name="family_habitat">Habitat</string>
+    <string name="family_behaviour">Behaviour</string>
+    <string name="family_classification">Classification</string>
+
+    <string-array name="families_icon">
+        <item>@drawable/ankylosauria</item>
+        <item>@drawable/ceratopsia</item>
+        <item>@drawable/hadrosauridae</item>
+        <item>@drawable/ornithopoda</item>
+        <item>@drawable/pterosauria</item>
+        <item>@drawable/sauropoda</item>
+        <item>@drawable/theropoda</item>
+        <item>@drawable/therizinosauria</item>
+    </string-array>
+
+    <string-array name="families_name">
+        <item>Ankylosauria</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauridae</item>
+        <item>Ornithischia</item>
+        <item>Pterosauria</item>
+        <item>Sauropodomorpha</item>
+        <item>Theropoda</item>
+        <item>Therizinosauridae</item>
+    </string-array>
+
+    <string-array name="families_description">
+        <item>Herbivorous dinosaurs with bodies protected by spikes and hard plates.</item>
+        <item>Herbivorous dinosaurs with horns and frills on their skulls.</item>
+        <item>Herbivorous dinosaurs with strong jaws and flattened teeth, often referred to as "duck-billed dinosaurs".</item>
+        <item>Herbivorous dinosaurs with jaws equipped with teeth and often having horn-like structures or frills.</item>
+        <item>Flying reptiles with membranous wings connected to their limbs.</item>
+        <item>Large-bodied dinosaurs with long necks, strong legs, and long tails. They were herbivorous.</item>
+        <item>Carnivorous dinosaurs with sharp claws, sharp teeth, and usually bipedal movement.</item>
+        <item>Herbivorous dinosaurs characterized by their long necks, pot-bellied bodies,
+            small heads, and large, curved claws on their hands.</item>
+    </string-array>
+
+    <string-array name="families_period">
+        <item>From the Late Jurassic Period to the Late Cretaceous Period
+            (about 160 million - 66 million years ago).</item>
+        <item>From the Early Cretaceous Period to the Late Cretaceous Period
+            (about 145 million - 66 million years ago).</item>
+        <item>From the Early Cretaceous Period to the Late Cretaceous Period
+            (about 145 million - 66 million years ago).</item>
+        <item>From the Late Triassic Period to the Late Cretaceous Period
+            (about 230 million - 65 million years ago).</item>
+        <item>From the Late Triassic Period to the Late Cretaceous Period
+            (about 228 million - 66 million years ago).</item>
+        <item>From the Late Triassic Period to the Late Cretaceous Period
+            (about 230 million - 65 million years ago).</item>
+        <item>From the Late Triassic Period to the Late Cretaceous Period
+            (about 230 million - 65 million years ago).</item>
+        <item>From the Late Cretaceous Period
+            (around 145 million - 66 million years ago).</item>
+    </string-array>
+
+    <string-array name="families_physics">
+        <item>Low-slung bodies with hard plates or spiked bones
+            protecting their bodies.</item>
+        <item>Prominent horns and frills on the skull, as well as
+            large bodies with four legs.</item>
+        <item>Large bodies with powerful jaws and rows of flattened
+            teeth.</item>
+        <item>Typically have heavy bodies, short legs,
+            and jaws equipped with teeth for chewing plants.</item>
+        <item>Light bodies with wide wings, and sometimes horns or
+            crests on the skull.</item>
+        <item>Large body size, long necks, and small claws.
+            Their vertebral column consists of large vertebrae.</item>
+        <item>Typically have lightweight bodies, long legs, and strong claws.
+            Some species had feathers.</item>
+        <item>Long necks, large torsos, and relatively small skulls with toothless beaks.
+            One of their most distinctive features was the large, sickle-shaped claws on
+            their hands, which were likely used for manipulating vegetation.</item>
+    </string-array>
+
+    <string-array name="families_habitat">
+        <item>Typically found in scrub-land or forested areas.</item>
+        <item>Typically found in lowland or more open areas.</item>
+        <item>Lived in various habitats including forests, floodplains,
+            and open areas.</item>
+        <item>Lived in various habitats including forests, floodplains,
+            and open areas.</item>
+        <item>Typically found in coastal areas and waters, although some
+            species also lived on land.</item>
+        <item>Typically found in terrestrial environments, often in
+            lowland areas and forests.</item>
+        <item>Found in various habitats including forests, lowlands,
+            and desert areas.</item>
+        <item>Inhabited in forested environments, where they could feed on a variety of
+            plant material, including leaves, fruits, and possibly even small branches.</item>
+    </string-array>
+
+    <string-array name="families_behaviour">
+        <item>Tended to have defensive behaviors, using their shields
+            and natural weapons to protect themselves from predators.</item>
+        <item>May have lived in herds to defend territory or find food.</item>
+        <item>Could have lived in herds for defense or foraging purposes.</item>
+        <item>Could live in groups or pairs depending on the species.</item>
+        <item>Many species are believed to be aerial predators, hunting
+            over water or gliding through the air to catch prey.</item>
+        <item>Sauropods are believed to have migrated in large
+            groups to find food.</item>
+        <item>May have hunted in groups or individually, depending
+            on the species.</item>
+        <item>Primarily herbivorous, using their specialized claws to
+            reach and strip vegetation. Some researchers suggest that
+            they may have also been facultative omnivores, occasionally
+            consuming small animals or insects.</item>
+    </string-array>
+
+    <string-array name="families_classification">
+        <item>Ankylosauria is an order within the subclass Dinosauria.</item>
+        <item>Ceratopsia is an order within the subclass Dinosauria.</item>
+        <item>Hadrosauridae is a family within the order Ornithischia.</item>
+        <item>Ornithischia is an order within the subclass Dinosauria.</item>
+        <item>Pterosauria is a sister group to dinosaurs, included in the class Archosauria.</item>
+        <item>Classified as a group within the order Saurischia.</item>
+        <item>Theropoda is an order within the subclass Dinosauria.</item>
+        <item>Therizinosauria is an order within the subclass Dinosauria.
+            They were initially classified as theropods due to their similarities
+            in skeletal features, but further study revealed their unique adaptations
+            for herbivory.</item>
+    </string-array>
+</resources>
