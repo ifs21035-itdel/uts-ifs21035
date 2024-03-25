@@ -12,4 +12,6 @@ data class Family(
     var habitat: String,
     var behaviour: String,
     var classification: String,
+    var start: Int,
+    var end: Int,
 ) :Parcelable

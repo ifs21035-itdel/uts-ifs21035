@@ -51,11 +51,14 @@ class MainActivity : AppCompatActivity() {
         val dataHabitat = resources.getStringArray(R.array.families_habitat)
         val dataBehavior = resources.getStringArray(R.array.families_behaviour)
         val dataClassification = resources.getStringArray(R.array.families_classification)
+        val start = resources.getStringArray(R.array.start)
+        val end = resources.getStringArray(R.array.end)
+
         val listFamily = ArrayList<Family>()
         for(i in dataName.indices){
             val family = Family(dataName[i],
                 dataIcon.getResourceId(i,-1), dataDescription[i],
-                dataPeriod[i], dataPhysics[i], dataHabitat[i], dataBehavior[i],dataClassification[i])
+                dataPeriod[i], dataPhysics[i], dataHabitat[i], dataBehavior[i],dataClassification[i], start[i].toInt(), end[i].toInt())
             listFamily.add(family)
         }
         return listFamily
@@ -72,11 +75,11 @@ class MainActivity : AppCompatActivity() {
         listFamilyAdapter.setOnItemClickCallback(object :
             ListFamilyAdapter.OnItemClickCallback{
             override fun onItemClicked(data: Family) {
-                showSelectedGame(data)
+                showSelectedFamily(data)
             }
         })
     }
-    private fun showSelectedGame(family: Family){
+    private fun showSelectedFamily(family: Family){
         val intentWithData = Intent(this@MainActivity,DetailActivity::class.java)
         intentWithData.putExtra(DetailActivity.EXTRA_FAMILY, family)
         startActivity(intentWithData)

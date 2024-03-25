@@ -11,20 +11,20 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/ivItemDino"
+            android:id="@+id/ivItemFamily"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:contentDescription="@string/dino_icon"
-            android:src="@drawable/ankylosaur" />
+            android:contentDescription="@string/family_name"
+            android:src="@drawable/ankylosauria" />
 
         <TextView
-            android:id="@+id/tvDinoName"
+            android:id="@+id/tvFamilyName"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/dino_name"
+            android:text="@string/family_name"
             android:textAlignment="gravity"
             android:textSize="20sp"
             android:textStyle="bold" />

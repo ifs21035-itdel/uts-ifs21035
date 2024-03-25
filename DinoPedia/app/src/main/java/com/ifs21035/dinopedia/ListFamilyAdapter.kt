@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.ifs21035.dinopedia.databinding.ItemRowDinoBinding
+import com.ifs21035.dinopedia.databinding.ItemRowFamilyBinding
 
 class ListFamilyAdapter(private val listFamily: ArrayList<Family>) :
     RecyclerView.Adapter<ListFamilyAdapter.ListViewHolder>() {
@@ -15,7 +15,7 @@ class ListFamilyAdapter(private val listFamily: ArrayList<Family>) :
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ListViewHolder {
-        val binding = ItemRowDinoBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
+        val binding = ItemRowFamilyBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
         return ListViewHolder(binding)
     }
 
@@ -31,7 +31,7 @@ class ListFamilyAdapter(private val listFamily: ArrayList<Family>) :
 
     override fun getItemCount(): Int = listFamily.size
 
-    class ListViewHolder(var binding: ItemRowDinoBinding) : RecyclerView.ViewHolder(binding.root)
+    class ListViewHolder(var binding: ItemRowFamilyBinding) : RecyclerView.ViewHolder(binding.root)
 
     interface OnItemClickCallback {
         fun onItemClicked(data: Family)

@@ -14,6 +14,18 @@
     <string name="family_habitat">Habitat</string>
     <string name="family_behaviour">Behaviour</string>
     <string name="family_classification">Classification</string>
+    <string name="btnDino">Dinosaur</string>
+    <string name="dino_icon">Dino icon</string>
+    <string name="dino_name">Dino Name</string>
+    <string name="dino_description">Dino Description</string>
+    <string name="dino_characteristic">Dino Character</string>
+    <string name="dino_group">Dino group</string>
+    <string name="dino_habitat">Dino habitat</string>
+    <string name="dino_food">Dino food</string>
+    <string name="dino_length">Dino length</string>
+    <string name="dino_height">Dino height</string>
+    <string name="dino_weight">Dino weight</string>
+    <string name="dino_weakness">Dino weakness</string>
 
     <string-array name="families_icon">
         <item>@drawable/ankylosauria</item>
@@ -24,6 +36,28 @@
         <item>@drawable/sauropoda</item>
         <item>@drawable/theropoda</item>
         <item>@drawable/therizinosauria</item>
+    </string-array>
+
+    <string-array name="end">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="start">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
     </string-array>
 
     <string-array name="families_name">
@@ -135,5 +169,307 @@
             They were initially classified as theropods due to their similarities
             in skeletal features, but further study revealed their unique adaptations
             for herbivory.</item>
+    </string-array>
+
+    <string-array name="dinosaur_icon">
+        <item>@drawable/ankylosaur</item>
+        <item>@drawable/stegosaur</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/styracosaurus</item>
+        <item>@drawable/edmontosaurus</item>
+        <item>@drawable/corythosaurus</item>
+        <item>@drawable/parasaurolophus</item>
+        <item>@drawable/iguanodon</item>
+        <item>@drawable/pteranodon</item>
+        <item>@drawable/quetzalcoatlus</item>
+        <item>@drawable/argentinosaurus</item>
+        <item>@drawable/brachiosaurus</item>
+        <item>@drawable/carnotaurus</item>
+        <item>@drawable/tyrannosaurus</item>
+        <item>@drawable/therizinosaurus</item>
+        <item>@drawable/nothronychus</item>
+    </string-array>
+    <string-array name="dinosaur_name">
+        <item>Ankylosaurus</item>
+        <item>Stegosaurus</item>
+        <item>Triceratops</item>
+        <item>Styracosaurus</item>
+        <item>Edmontosaurus</item>
+        <item>Corythosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Iguanodon</item>
+        <item>Pteranodon</item>
+        <item>Quetzalcoatlus</item>
+        <item>Argentinosaurus</item>
+        <item>Brachiosaurus</item>
+        <item>Carnotaurus</item>
+        <item>Tyrannosaurus</item>
+        <item>Therizinosaurus</item>
+        <item>Nothronychus</item>
+    </string-array>
+
+    <string-array name="dinosaur_description">
+        <item>Ankylosaurus was a heavily armored herbivorous dinosaur known for its thick,
+            bony plates along its back and a club-like tail.</item>
+        <item>Stegosaurus was a herbivorous dinosaur known for its distinctive double row
+            of large, bony plates along its back and pairs of spikes on its tail.</item>
+        <item>Triceratops was a large herbivorous dinosaur known for its three facial horns
+            and bony frill at the back of its skull.</item>
+        <item>Styracosaurus was a herbivorous dinosaur known for its distinctive frill of
+            spikes around its neck and a single long nasal horn.</item>
+        <item>Edmontosaurus was a large herbivorous dinosaur known for its duck-billed
+            appearance and toothless beak.</item>
+        <item>Corythosaurus was a herbivorous dinosaur known for its distinctive
+            helmet-like crest on top of its skull.</item>
+        <item>Parasaurolophus was a herbivorous dinosaur known for its elaborate cranial crest,
+            which extended backward from its skull.</item>
+        <item>Iguanodon was a herbivorous dinosaur known for its thumb spike and ability to
+            switch between bipedal and quadrupedal locomotion.</item>
+        <item>Pteranodon was a large flying reptile known for its distinctive crest on the back
+            of its head and its long, toothless beak.</item>
+        <item>Quetzalcoatlus was one of the largest flying reptiles known to have existed, with
+            a wingspan rivaling that of a small airplane.</item>
+        <item>Argentinosaurus was a massive herbivorous dinosaur, one of the largest terrestrial
+            animals to have ever lived.</item>
+        <item>Brachiosaurus was a large herbivorous dinosaur known for its long neck, small head,
+            and front legs longer than its hind legs.</item>
+        <item>Carnotaurus was a medium-sized predatory dinosaur known for its distinctive horns
+            above the eyes and deep skull.</item>
+        <item>Tyrannosaurus rex, often referred to as T. rex, was a large predatory dinosaur known
+            for its massive skull, powerful jaws, and serrated teeth.</item>
+        <item>Therizinosaurus was a large herbivorous dinosaur with long claws on its hands,
+            thought to have been used for stripping vegetation.</item>
+        <item>Nothronychus was a therizinosaurid dinosaur known for its large size and distinctive
+            sickle-shaped claws on its hands.</item>
+    </string-array>
+
+    <string-array name="dinosaur_characteristic">
+        <item>It had a low-slung body covered in bony plates called osteoderms and a tail
+            ending in a large bony club, which it likely used for defense against predators.</item>
+        <item>It had a small head, a long neck, a heavy, armored body, and short legs. The most
+            recognizable feature is the array of large, kite-shaped plates along its back.</item>
+        <item>It had a bulky body, a large skull with a parrot-like beak, and a bony frill
+            extending from the back of its head.</item>
+        <item>It had a bulky body, a large skull with a beak, and a frill adorned with several
+            long spikes projecting outward.</item>
+        <item>It had a bulky body, a long tail, and a broad, flat head with a toothless beak
+            resembling that of a duck.</item>
+        <item>It had a long, slender body, a long tail, and a skull with a hollow, helmet-like
+            crest that extended backward from its skull.</item>
+        <item> It had a long, tubular crest that extended from its skull, likely used for
+            vocalization and display purposes.</item>
+        <item>It had a bulky body, a long tail, and a thumb spike that may have been used for
+            defense or foraging.</item>
+        <item>It had a long, slender body, large wings supported by a single elongated finger,
+            and a long, toothless beak adapted for catching fish.</item>
+        <item>It had a long, slender body, large wings supported by an elongated fourth finger,
+            and a long, toothless beak adapted for catching prey.</item>
+        <item>It had a long neck, a small head, a bulky body, and a long tail. Despite its size,
+            its limbs were relatively slender.</item>
+        <item>It had a tall, giraffe-like build, with its front legs significantly longer than
+            its hind legs, giving it a sloping posture.</item>
+        <item>It had a sleek, muscular body with short, stubby arms, a thick neck, and powerful
+            jaws lined with sharp teeth.</item>
+        <item>It had a robust body, long hind limbs for fast running, and tiny forelimbs with
+            two-fingered hands.</item>
+        <item>It had a bulky body, a long neck, and exceptionally long, scythe-like claws on its
+            hands, which were among the longest claws of any known dinosaur.</item>
+        <item>It had a large, bulky body, a long neck, and large, sickle-shaped claws on its hands,
+            suggesting it was an herbivore.</item>
+    </string-array>
+
+    <string-array name="dinosaur_group">
+        <item>Ankylosaurus belongs to the family Ankylosauridae within
+            the order Ornithischia.</item>
+        <item>Stegosaurus belongs to the family Stegosauridae within the
+            order Ornithischia.</item>
+        <item>Triceratops belongs to the family Ceratopsidae within the
+            order Ornithischia.</item>
+        <item>Styracosaurus belongs to the family Ceratopsidae within the
+            order Ornithischia.</item>
+        <item>Edmontosaurus belongs to the family Hadrosauridae within the
+            order Ornithischia.</item>
+        <item>Corythosaurus belongs to the family Hadrosauridae within the
+            order Ornithischia.</item>
+        <item>Parasaurolophus belongs to the family Hadrosauridae within the
+            order Ornithischia.</item>
+        <item>Iguanodon belongs to the family Iguanodontidae within the
+            order Ornithischia.</item>
+        <item>Pteranodon belongs to the order Pterosauria.</item>
+        <item>Quetzalcoatlus belongs to the order Pterosauria.</item>
+        <item>Argentinosaurus belongs to the family Titanosauridae within the
+            order Sauropoda.</item>
+        <item>Brachiosaurus belongs to the family Brachiosauridae within the
+            order Sauropoda.</item>
+        <item>Carnotaurus belongs to the family Abelisauridae within the
+            order Theropoda.</item>
+        <item>Tyrannosaurus belongs to the family Tyrannosauridae within the
+            order Theropoda.</item>
+        <item>Therizinosaurus belongs to the family Therizinosauridae within
+            the order Theropoda.</item>
+        <item>Nothronychus belongs to the family Therizinosauridae within the
+            order Theropoda.</item>
+    </string-array>
+
+    <string-array name="dinosaur_habitat">
+        <item>Ankylosaurus inhabited wooded and open habitats during
+            the Late Cretaceous period.</item>
+        <item>Stegosaurus lived in woodlands and semi-arid environments
+            during the Late Jurassic period.</item>
+        <item>Triceratops inhabited woodlands and plains during the
+            Late Cretaceous period.</item>
+        <item>Styracosaurus inhabited woodlands and plains during the
+            Late Cretaceous period.</item>
+        <item>Edmontosaurus inhabited woodlands and floodplains during
+            the Late Cretaceous period.</item>
+        <item>Corythosaurus inhabited woodlands and floodplains during
+            the Late Cretaceous period.</item>
+        <item>Parasaurolophus inhabited woodlands and floodplains during
+            the Late Cretaceous period.</item>
+        <item>Iguanodon inhabited woodlands and floodplains during the
+            Early Cretaceous period.</item>
+        <item>Pteranodon inhabited coastal regions and marine environments
+            during the Late Cretaceous period.</item>
+        <item>Quetzalcoatlus inhabited coastal regions and inland environments
+            during the Late Cretaceous period.</item>
+        <item>Argentinosaurus inhabited forested floodplains and river valleys
+            during the Late Cretaceous period.</item>
+        <item>Brachiosaurus inhabited forested floodplains and upland environments
+            during the Late Jurassic period.</item>
+        <item>Carnotaurus inhabited open woodlands and plains during the
+            Late Cretaceous period.</item>
+        <item>Tyrannosaurus inhabited various environments, including forests, plains,
+            and coastal regions, during the Late Cretaceous period.</item>
+        <item>Therizinosaurus likely inhabited forested environments during the
+            Late Cretaceous period.</item>
+        <item>Nothronychus likely inhabited forested environments during the
+            Early Cretaceous period.</item>
+    </string-array>
+
+    <string-array name="dinosaur_food">
+        <item>As an herbivore, Ankylosaurus primarily fed on low-lying
+            vegetation, such as ferns and cycads.</item>
+        <item>It likely fed on low-lying vegetation, such as ferns, mosses,
+            and cycads.</item>
+        <item>As an herbivore, it likely fed on low-lying vegetation, using its tough
+            beak and powerful jaws to strip leaves and branches.</item>
+        <item>As an herbivore, it likely fed on low-lying vegetation, using its tough beak
+            and powerful jaws to strip leaves and branches.</item>
+        <item>As an herbivore, it likely fed on low-lying vegetation, using its beak and
+            rows of teeth to grind plant material.</item>
+        <item>As an herbivore, it likely fed on low-lying vegetation, using its beak and
+            rows of teeth to grind plant material.</item>
+        <item>As an herbivore, it likely fed on low-lying vegetation, using its beak and
+            rows of teeth to grind plant material.</item>
+        <item>As an herbivore, it likely fed on low-lying vegetation, using its beak and
+            teeth to strip leaves and branches.</item>
+        <item>As a piscivore, it primarily fed on fish, using its sharp beak to catch prey
+            while in flight.</item>
+        <item>As a carnivore, it likely preyed on small animals, including fish, reptiles,
+            and possibly even small dinosaurs.</item>
+        <item>As a herbivore, it likely fed on vast quantities of low-lying vegetation,
+            such as ferns, horsetails, and conifers.</item>
+        <item>As a herbivore, it likely fed on tall vegetation, such as conifers and ferns,
+            using its long neck to reach high branches.</item>
+        <item>As a carnivore, it likely hunted small to medium-sized prey, using its speed
+            and agility to catch its victims.</item>
+        <item>As a carnivore, it was a formidable apex predator, preying on a variety of dinosaurs,
+            including herbivores like Triceratops.</item>
+        <item>As an herbivore, it likely fed on vegetation, using its long claws to reach
+            and strip leaves from branches.</item>
+        <item>As an herbivore, it likely fed on vegetation, using its claws to reach and
+            strip leaves from branches.</item>
+    </string-array>
+
+    <string-array name="dinosaur_length">
+        <item>Around 6–8 meters (20–26 feet).</item>
+        <item>Typically around 9 meters (30 feet).</item>
+        <item>Estimated to be around 7–9 meters (23–30 feet).</item>
+        <item>Estimated to be around 5–6 meters (16–20 feet).</item>
+        <item>Estimated to be around 9–13 meters (30–43 feet).</item>
+        <item>Estimated to be around 9–10 meters (30–33 feet).</item>
+        <item>Estimated to be around 9–10 meters (30–33 feet).</item>
+        <item>Estimated to be around 6–10 meters (20–33 feet).</item>
+        <item>Estimated to have a wingspan of around 7–9 meters (23–30 feet).</item>
+        <item>Estimated to have a wingspan of around 10–12 meters (33–39 feet).</item>
+        <item>Estimated to be around 30–35 meters (98–115 feet).</item>
+        <item>Estimated to be around 18–22 meters (59–72 feet).</item>
+        <item>Around 7–9 meters (23–30 feet).</item>
+        <item>Estimated to be around 12–13 meters (39–43 feet).</item>
+        <item>Estimated to be around 9–10 meters (30–33 feet).</item>
+        <item>Estimated to be around 4–5 meters (13–16 feet).</item>
+    </string-array>
+
+    <string-array name="dinosaur_height">
+        <item>About 1.5 meters (5 feet).</item>
+        <item>Approximately 2.75 meters (9 feet) tall at the hips.</item>
+        <item>Approximately 2.5–3 meters (8–10 feet) tall at the hips.</item>
+        <item>Approximately 2.5 meters (8 feet) tall at the hips.</item>
+        <item>Approximately 3–4 meters (10–13 feet) tall at the hips.</item>
+        <item>Approximately 3–4 meters (10–13 feet) tall at the hips.</item>
+        <item>Approximately 2.5–3 meters (8–10 feet) tall at the hips.</item>
+        <item>Approximately 2–4 meters (6.5–13 feet) tall at the hips.</item>
+        <item>Approximately 1–2 meters (3–6 feet) tall at the shoulders.</item>
+        <item>Approximately 3–4 meters (10–13 feet) tall at the shoulder.</item>
+        <item>It stood approximately 7 meters (23 feet) tall at the hips.</item>
+        <item>Approximately 13–15 meters (43–49 feet) tall.</item>
+        <item>Approximately 2.5 meters (8 feet) tall at the hips.</item>
+        <item>Approximately 4–6 meters (13–20 feet) tall at the hips.</item>
+        <item>Approximately 3–4 meters (10–13 feet) tall at the hips.</item>
+        <item>Approximately 2–3 meters (6.5–10 feet) tall at the hips.</item>
+    </string-array>
+
+    <string-array name="dinosaur_weight">
+        <item>Estimated to be around 4–6 metric tons.</item>
+        <item>Estimated to be around 5 metric tons.</item>
+        <item>Estimated to be around 6–12 metric tons.</item>
+        <item>Estimated to be around 2–3 metric tons.</item>
+        <item>Estimated to be around 4–6 metric tons.</item>
+        <item>Estimated to be around 2–4 metric tons.</item>
+        <item>Estimated to be around 2–3 metric tons.</item>
+        <item>Estimated to be around 2–4 metric tons.</item>
+        <item>Estimated to be around 20–50 kilograms (44–110 pounds).</item>
+        <item>Estimated to be around 200–250 kilograms (440–550 pounds).</item>
+        <item>Estimated to be between 60 to 100 metric tons.</item>
+        <item>Estimated to be between 30 to 60 metric tons.</item>
+        <item>Estimated to be around 1.5 to 2 metric tons.</item>
+        <item>Estimated to be around 8–9 metric tons.</item>
+        <item>Estimated to be around 5–6 metric tons.</item>
+        <item>Estimated to be around 1–2 metric tons.</item>
+    </string-array>
+
+    <string-array name="dinosaur_weakness">
+        <item>Despite its heavy armor, Ankylosaurus may have been vulnerable to attacks from
+            agile and fast predators due to its relatively slow speed.</item>
+        <item>Despite its armor and spiked tail, Stegosaurus may have been susceptible to attacks
+            from large predators due to its relatively small size and slow speed.</item>
+        <item>Despite its formidable horns and frill, Triceratops may have been vulnerable to
+            attacks from large predators due to its relatively slow speed and limited agility.</item>
+        <item>Despite its formidable frill and horn, Styracosaurus may have been vulnerable to
+            attacks from large predators due to its relatively slow speed and limited agility.</item>
+        <item>Despite its size, Edmontosaurus may have been vulnerable to attacks from large
+            predators due to its relatively slow speed and limited agility.</item>
+        <item>Despite its size, Corythosaurus may have been vulnerable to attacks from large
+            predators due to its relatively slow speed and limited agility.</item>
+        <item>Despite its size, Parasaurolophus may have been vulnerable to attacks from large
+            predators due to its relatively slow speed and limited agility.</item>
+        <item>Despite its size, Iguanodon may have been vulnerable to attacks from large predators
+            due to its relatively slow speed and limited agility.</item>
+        <item>Despite its aerial prowess, Pteranodon may have been vulnerable to attacks from
+            large marine predators while hunting for fish.</item>
+        <item>Despite its immense size, Quetzalcoatlus may have been vulnerable to attacks from
+            large predators while on the ground or during takeoff and landing.</item>
+        <item>Despite its immense size, Argentinosaurus may have been vulnerable to attacks from
+            large predators due to its relatively slow speed and limited agility.</item>
+        <item>Despite its size, Brachiosaurus may have been susceptible to attacks from large
+            predators due to its relatively slow speed and limited agility.</item>
+        <item>Despite its speed and agility, Carnotaurus may have been relatively fragile compared
+            to larger predators, relying more on ambush tactics than direct confrontation.</item>
+        <item>Despite its size and power, Tyrannosaurus may have had limited agility and endurance,
+            potentially making it vulnerable during prolonged chases.</item>
+        <item>Despite its formidable claws, Therizinosaurus may have been relatively slow-moving
+            and may have lacked strong defensive capabilities against large predators.</item>
+        <item>Despite its size and claws, Nothronychus may have been relatively slow-moving and may
+            have lacked strong defensive capabilities against large predators.</item>
     </string-array>
 </resources>

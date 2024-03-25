@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.ifs21035.dinopedia.databinding.ActivityDetailBinding
 
@@ -28,6 +29,14 @@ class DetailActivity : AppCompatActivity() {
             loadData(family!!)
         } else {
             finish()
+        }
+
+        val btnDinosaur = findViewById<Button>(R.id.btnDinosaur)
+
+        btnDinosaur.setOnClickListener{
+            val intent = Intent(this@DetailActivity,DinoMainActivity::class.java)
+            intent.putExtra(DinoMainActivity.EXTRA_FAMILY, family!!)
+            startActivity(intent)
         }
     }
 
